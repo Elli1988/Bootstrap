@@ -1,0 +1,76 @@
+body{
+ /*position: relative;
+  padding-bottom: 40px;*/
+  background-color: #f3c766;
+  width: 100%;
+  min-height: 100%;
+  /*font-family: 'Dosis', sans-serif;*/
+  color: #CCC;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div#title{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  right: 10%;
+  margin: 2%;
+}
+
+h1{
+  color: #333;
+  text-shadow: 1px #000000;
+  text-align: right;
+  font-family: 'Dosis', sans-serif;
+  font-size: xx-large;
+  vertical-align: center;
+}
+
+h2{
+ color: #333;
+ text-align: right;
+ font-family: 'Dosis', sans-serif;
+ font-size: x-large;
+ vertical-align: center;
+}
+
+img {
+  width: auto\9; /* ie8 */
+  max-width:50%;
+  height: auto;
+  max-height: 90%;
+  float: left;
+  position: fixed;
+  left: 0%;
+  bottom: 30px;
+}
+
+div#container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  right: 5%;
+  bottom: 10%;
+  align-content: right;
+  max-width: 40%;
+  max-height: 50%;
+  /*margin-bottom: 25%;*/
+}
+
+p{
+  /*width: 50%;
+  height: auto;*/
+  color: #333;
+  text-align: right;
+  font-size: medium;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 2px;
+  overflow: auto;
+}
+
+.navbar{
+	padding-left: 5%;
+	padding-right: 5%;
+}

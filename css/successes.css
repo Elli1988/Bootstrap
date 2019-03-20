@@ -1,0 +1,240 @@
+body{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #0d3d51;
+  width: 100%;
+  min-height: 100%;
+  font-family: 'Dosis', sans-serif;
+  color: #333;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.successes {
+  display: flex;
+  flex-direction: row;
+  /*height: 130px;*/
+  /*padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;*/
+  align-content:center;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  color: #333;
+  font-size: medium;
+  margin-bottom: 30px;
+  /*background-color: pink;*/
+}
+
+div#foundingsocieties{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#runacharity{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#superherocampaign{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#internationalconferences{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#livingabroad{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#phd{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#journalisticprices{
+ color: #CCC;
+ width: 80px;
+ height: 30px;
+ margin: 10px;
+ padding: 30px;
+ background-color: #315a6b;
+ border-radius: 2px;
+ flex-basis: 80px;
+ text-align:center;
+ vertical-align: middle;
+ align-self: center;
+}
+
+div#foundingsocietiescontent{
+  text-align: left;
+  color: #CCC;
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  float: center;
+  padding: 7%;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
+  overflow: auto;
+  vertical-align: center;
+  font-size: 22px;
+}
+
+img {
+ float: right;
+ width: 20%;
+ height: auto;
+ padding: 20px;
+ vertical-align: center;
+}
+
+p{
+ /*float: left;*/
+   color: #CCC;
+   text-align: center;
+   font-size: large;
+   vertical-align: center;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #CCC;
+  }
+
+li {
+  display: inline;
+  width: 20%;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #e1e1e1;
+  font-size: x-large;
+  text-align: center;
+  padding: 25px 45px;
+  text-decoration: none;
+}
+
+li#home {
+  background-color: #c88000;
+  color: #e1e1e1;
+}
+
+li#home:hover {
+  background-color: #e4b053;
+  color: #333;
+}
+
+li#successes{
+  background-color:#0d3d51;
+  color: #e1e1e1;
+}
+
+li#successes:hover {
+  background-color: #0b303f;
+  color: #333;
+}
+
+li#experiences{
+  background-color:#5b1f42;
+  color: #e1e1e1;
+}
+
+li#experiences:hover {
+  background-color: #371228;
+  color: #333;
+}
+
+li#skills{
+  background-color:#629991;
+  color: #e1e1e1;
+}
+
+li#skills:hover {
+  background-color: #3c8f83;
+  color: #333;
+}
+
+li#CV {
+  background-color: #ce3e45;
+  color: #e1e1e1;
+}
+
+li#CV:hover {
+  background-color: #b43339;
+  color: #333;
+}
